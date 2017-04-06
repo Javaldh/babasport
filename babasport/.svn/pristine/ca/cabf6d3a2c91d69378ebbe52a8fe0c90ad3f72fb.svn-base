@@ -1,0 +1,5 @@
+package ldh.core.dao.product;
+
+public interface BrandDao {
+
+}

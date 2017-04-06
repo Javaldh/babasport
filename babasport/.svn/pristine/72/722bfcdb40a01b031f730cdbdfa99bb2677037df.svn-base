@@ -1,0 +1,9 @@
+package ldh.core.service.product;
+
+import ldh.core.bean.product.Brand;
+import cn.itcast.common.page.Pagination;
+
+public interface BrandService {
+
+	public Pagination getBrandListWithPage(Brand brand);
+}

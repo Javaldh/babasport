@@ -1,0 +1,21 @@
+package ldh;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+/**
+ * junit测试
+ * @author ldh
+ *
+ * @date 2017-1-23 下午11:31:22
+ */
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = "classpath:application-context.xml")
+public class TestTb {
+	@Test
+	public void testAdd() throws Exception {
+		
+	}
+}

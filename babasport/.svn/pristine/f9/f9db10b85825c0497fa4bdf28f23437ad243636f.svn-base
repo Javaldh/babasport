@@ -1,0 +1,22 @@
+package ldh.core.controller.admin;
+
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * 商品管理
+ * 商品添加
+ * 商品上下架
+ * @author ldh
+ *
+ * @date 2017-2-7 下午8:07:50
+ */
+public class ProductController {
+
+	//商品列表
+	@RequestMapping(value ="/product/list.do")
+	public String list(Integer pageNo,String name,Integer brandid,Integer isShow,ModelMap model){
+		
+		return"product/list";
+	}
+}

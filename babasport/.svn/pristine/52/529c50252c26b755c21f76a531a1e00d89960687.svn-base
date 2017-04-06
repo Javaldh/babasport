@@ -1,0 +1,28 @@
+package ldh.core.controller.admin;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * 模块身体
+ * @author ldh
+ *
+ * @date 2017-1-24 下午10:08:24
+ */
+@Controller
+@RequestMapping(value = "/center")
+public class FrameController {
+	
+	@RequestMapping(value = "frame/product_main.do")
+	public String  productMain(){
+		return "frame/product_main";
+	}
+	@RequestMapping(value = "frame/product_left.do")
+	public String  productLeft(){
+		return "frame/product_left";
+	}
+	@RequestMapping(value = "frame/order_main.do")
+	public String  orderMain(){
+		return "frame/order_main";
+	}
+}

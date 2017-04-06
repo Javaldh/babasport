@@ -1,0 +1,22 @@
+package ldh.core.service;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Service;
+
+import ldh.core.bean.TestTb;
+import ldh.core.dao.TestTbDao;
+
+@Service
+public class TestTbServiceImpl implements TestTbService {
+	
+	@Resource
+	private TestTbDao testTbDao;
+
+	@Override
+	public void addTestTb(TestTb testTb) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

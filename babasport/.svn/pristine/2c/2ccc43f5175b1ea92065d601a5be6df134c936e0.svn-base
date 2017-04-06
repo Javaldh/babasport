@@ -1,0 +1,13 @@
+package ldh.core.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * 
+ * @author Administrator
+ *
+ */
+@Controller
+public class CenterController {
+
+}
